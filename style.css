@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+    color: none ;
+    text-transform:capitalize;
+}
+h1{
+    text-transform: capitalize;
+}
+/* style */
+/* the syntax of pseudo class
+selector:pseudo-classes{
+    property:value
+} */
+
+
+a:hover{
+    color:orangered;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.hovergarna:hover{
+    color:yellow;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.activebutton{
+    color: red;
+}
+.bold{
+    font-weight: 900;
+}
+
+.paragraphkohover:hover{
+color: aqua;
+font-weight: 700;
+}

@@ -1,0 +1,14 @@
+a{
+    color: Black ;
+    text-transform: capitalize;
+  }
+  
+  a:hover{
+    color:red;
+    text-decoration: underline;
+    text-underline-position:5px ;
+  }
+  
+  .hang{
+    color: red;
+  }
