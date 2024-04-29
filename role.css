@@ -6,9 +6,18 @@ a{
   a:hover{
     color:red;
     text-decoration: underline;
-    text-underline-position:5px ;
+    text-underline-offset:5px ;
   }
   
   .hang{
     color: red;
   }
+
+  .img-con{
+justify-content: center;
+display: flex;
+align-items: center;
+
+  }
+
+
